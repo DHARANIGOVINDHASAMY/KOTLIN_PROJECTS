@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <declare-styleable name="RippleBackground">
+        <attr name="rb_color" format="color" />
+        <attr name="rb_strokeWidth" format="dimension"/>
+        <attr name="rb_radius" format="dimension"/>
+        <attr name="rb_duration" format="integer"/>
+        <attr name="rb_rippleAmount" format="integer"/>
+        <attr name="rb_scale" format="float"/>
+        <attr name="rb_type" format="enum">
+            <enum name="fillRipple" value="0"/>
+            <enum name="strokeRipple" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="TicketViewUI">
+        <attr format="reference" name="tv_anchor1"/>
+        <attr format="reference" name="tv_anchor2"/>
+        <attr format="color" name="tv_dashColor"/>
+        <attr format="dimension" name="tv_dashSize"/>
+        <attr format="dimension" name="tv_circleSpace"/>
+        <attr format="dimension" name="tv_circleRadius"/>
+    </declare-styleable>
+
+
+
+
+
+
+<!--tap intro-->
+        <attr name="MaterialTapTargetPromptTheme" format="reference"/>
+        <attr name="mttp_target" format="reference"/>
+        <attr name="mttp_primaryText" format="string"/>
+        <attr name="mttp_secondaryText" format="string"/>
+        <attr name="mttp_primaryTextColour" format="color"/>
+        <attr name="mttp_secondaryTextColour" format="color"/>
+        <attr name="mttp_backgroundColour" format="color"/>
+        <attr name="mttp_focalColour" format="color"/>
+        <attr name="mttp_focalRadius" format="dimension"/>
+        <attr name="mttp_primaryTextSize" format="dimension"/>
+        <attr name="mttp_secondaryTextSize" format="dimension"/>
+        <attr name="mttp_maxTextWidth" format="dimension"/>
+        <attr name="mttp_textPadding" format="dimension"/>
+        <attr name="mttp_focalToTextPadding" format="dimension"/>
+        <attr name="mttp_textSeparation" format="dimension"/>
+        <attr name="mttp_autoDismiss" format="boolean"/>
+        <attr name="mttp_autoFinish" format="boolean"/>
+        <attr name="mttp_captureTouchEventOutsidePrompt" format="boolean"/>
+        <attr name="mttp_captureTouchEventOnFocal" format="boolean"/>
+        <attr name="mttp_primaryTextFontFamily" format="string"/>
+        <attr name="mttp_secondaryTextFontFamily" format="string"/>
+        <attr name="mttp_primaryTextStyle" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+        </attr>
+        <attr name="mttp_secondaryTextStyle" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+        </attr>
+        <attr name="mttp_primaryTextTypeface" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="sans" value="1" />
+            <enum name="serif" value="2" />
+            <enum name="monospace" value="3" />
+        </attr>
+        <attr name="mttp_secondaryTextTypeface" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="sans" value="1" />
+            <enum name="serif" value="2" />
+            <enum name="monospace" value="3" />
+        </attr>
+        <attr name="mttp_contentDescription" format="string"/>
+        <attr name="mttp_iconTint" format="reference"/>
+        <attr name="mttp_iconTintMode" format="enum">
+            <enum name="SRC_OVER" value="3" />
+            <enum name="SRC_IN" value="5" />
+            <enum name="SRC_ATOP" value="9" />
+            <enum name="MULTIPLY" value="14" />
+            <enum name="SCREEN" value="15" />
+            <enum name="ADD" value="16" />
+        </attr>
+        <attr name="mttp_iconColourFilter" format="color"/>
+        <declare-styleable name="PromptView">
+            <attr name="mttp_target"/>
+            <attr name="mttp_primaryText"/>
+            <attr name="mttp_secondaryText"/>
+            <attr name="mttp_primaryTextColour"/>
+            <attr name="mttp_secondaryTextColour"/>
+            <attr name="mttp_backgroundColour"/>
+            <attr name="mttp_focalColour"/>
+            <attr name="mttp_focalRadius"/>
+            <attr name="mttp_primaryTextSize"/>
+            <attr name="mttp_secondaryTextSize"/>
+            <attr name="mttp_maxTextWidth"/>
+            <attr name="mttp_textPadding"/>
+            <attr name="mttp_focalToTextPadding"/>
+            <attr name="mttp_textSeparation"/>
+            <attr name="mttp_autoDismiss"/>
+            <attr name="mttp_autoFinish"/>
+            <attr name="mttp_captureTouchEventOutsidePrompt"/>
+            <attr name="mttp_captureTouchEventOnFocal"/>
+            <attr name="mttp_primaryTextFontFamily"/>
+            <attr name="mttp_secondaryTextFontFamily"/>
+            <attr name="mttp_primaryTextStyle"/>
+            <attr name="mttp_secondaryTextStyle"/>
+            <attr name="mttp_primaryTextTypeface"/>
+            <attr name="mttp_secondaryTextTypeface"/>
+            <attr name="mttp_contentDescription"/>
+            <attr name="mttp_iconTint"/>
+            <attr name="mttp_iconTintMode"/>
+            <attr name="mttp_iconColourFilter"/>
+        </declare-styleable>
+</resources>
