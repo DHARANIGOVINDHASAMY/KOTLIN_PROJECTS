@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:id="@+id/sos_linear"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+    <!--    android:background="#0D1F32"
+-->
+    <TextView
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/brand_primary"
+        android:layout_marginTop="50dp"
+        android:foregroundGravity="bottom"
+        android:textStyle="bold"
+        android:id="@+id/sos_text"
+        android:gravity="center"
+        style="@style/Body2AndBoldNew"
+        android:textSize="17sp"
+        android:text="ZED Bluetooth"/>
+
+    <!--need to change : tarc package name here-->
+    <mobility.lima.com.utils.RippleBackground
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rippleBg"
+        app:rb_color="@color/brand_primary"
+        app:rb_radius="32dp"
+        app:rb_rippleAmount="4"
+        app:rb_duration="3000"
+        app:rb_scale="6"
+        >
+
+        <ImageView
+            android:id="@+id/centerImage"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/loader" />
+
+    </mobility.lima.com.utils.RippleBackground>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/brand_secoundary"
+        android:layout_marginTop="-100dp"
+        android:foregroundGravity="bottom"
+        android:textSize="13sp"
+        android:ellipsize="end"
+        android:lines="2"
+        android:gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:id="@+id/locationText"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/label1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/brand_primary"
+        android:layout_marginTop="-160dp"
+        android:foregroundGravity="bottom"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        style="@style/Body2AndBoldNewExtra"
+        android:text="scan"/>
+    <Button
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/brand_primary"
+        android:layout_marginTop="60dp"
+        android:foregroundGravity="bottom"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        style="@style/Body2AndBoldNewExtra"
+        android:text="connect"/>
+    <!--        app:drawableLeft="@drawable/menu_places_custom"
+-->
+</LinearLayout>
